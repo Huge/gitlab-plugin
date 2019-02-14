@@ -36,7 +36,7 @@
 
 # Specific edition(s)
 
-This fork is mainly concerned on setting up and tuning the docker-compose orchestrator for a [demo of the original plugin](#testing-with-docker), which resides in  https://github.com/jenkinsci/gitlab-plugin/tree/master/src/docker/ .
+This fork is mainly concerned on setting up and tuning the docker-compose orchestrator for a [demo of the original plugin](#testing-with-docker), which resides in  https://github.com/huge/gitlab-plugin/tree/master/src/docker/ .
 Fix has been made to run in Fedora 29, Docker >1.7.  
 Further plan is to start the apps( ie. GitLab and Jenkins) prepopulated with some demo content( (web)app source in GL, pipeline( loaded from GL project/repo) in Jenkis) and have the CI ready just when `docker-compose up` starts.
 
